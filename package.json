@@ -1,0 +1,12 @@
+{
+  "name": "ts-basics",
+  "version": "1.0.0",
+  "description": "Base TypeScript project",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
