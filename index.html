@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Template with TypeScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Лендінг-сторінка</h1>
+    <button id="openModalBtn">Відкрити модальне вікно</button>
+  </header>
+
+  <section id="content">
+    <h2>Пости</h2>
+    <div id="posts"></div>
+  </section>
+
+  <!-- Modal -->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span id="closeModalBtn" class="close">&times;</span>
+      <p>Привіт! Це модальне вікно.</p>
+    </div>
+  </div>
+
+  <script src="dist/scripts.js"></script>
+</body>
+</html>
